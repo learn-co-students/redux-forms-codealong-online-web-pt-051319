@@ -4,6 +4,7 @@ import App from './App';
 import manageTodo from './reducers/manageTodo';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+//passing the store into the provider allows us access when we connect components
 
 let store = createStore(manageTodo);
 
